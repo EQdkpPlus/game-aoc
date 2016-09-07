@@ -66,10 +66,10 @@ if(!class_exists('aoc')){
 				'recruitment' => true,
 				'parent'	=> array(
 					'race' => array(
-						0 	=> 'all',			// Unknown
+						0 	=> 'all',						// Unknown
 						1 	=> array(0,1,2,3,4,5,6,11),		// Aquilonian
 						2 	=> array(0,2,3,4,5,6,10),		// Cimmerian
-						3 	=> array(0,1,3,7,8,9,12),			// Stygian
+						3 	=> array(0,1,3,7,8,9,12),		// Stygian
 						4 	=> array(0,1,3,5,7,8,9,10),		// Kithan
 					),
 				),
@@ -77,11 +77,11 @@ if(!class_exists('aoc')){
 		);
 		public $default_roles = array(
 
-			0	=> array(0,1,2,3,4,5,6,7,8,9,10,11,12),# Anyrole
-			1 	=> array(0,4,5,6),			# Soldier
-			2 	=> array(0,10,11,12),		# Priest
-			3 	=> array(0,1,2,3),			# Rogue
-			4	=> array(0,7,8,9),			# Mage
+			0	=> array(0,1,2,3,4,5,6,7,8,9,10,11,12),	# Anyrole
+			1 	=> array(0,4,5,6),						# Soldier
+			2 	=> array(0,10,11,12),					# Priest
+			3 	=> array(0,1,2,3),						# Rogue
+			4	=> array(0,7,8,9),						# Mage
 		);
 
 		protected $glang		= array();
